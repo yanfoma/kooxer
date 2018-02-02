@@ -40,7 +40,7 @@
                           <div>
                             <span>
 
-                                <img height="16" width="16"  src="{{asset('img/').$group->social_network}}.png">
+                                <img height="16" width="16"  src="{{asset('img/').'/'.$group->social_network}}.png">
                               </span>
 
                               <span>
