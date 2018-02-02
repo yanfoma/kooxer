@@ -100,7 +100,7 @@
                   <label class="col-md-4 control-label" for="selectbasic">Social Network</label>
                   <div class="col-md-4">
                     <select id="selectbasic" name="social_network" class="form-control">
-                      <option value="WhatsApp">WhatsApp</option>
+                      <option value="Whatsapp">WhatsApp</option>
                       <option value="Viber">Viber</option>
                       <option value="Facebook">Facebook</option>
                     </select>
