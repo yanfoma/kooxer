@@ -15,6 +15,9 @@ class Groups extends Controller{
         $admin_contact = $request->input('admin_contact');
         $group_category = $request->input('group_category');
         $description = $request->input('description');
+        if(empty($group_category)){
+          $group_category = "None";
+        }
         DB::table('groups_list')->insert(
           ['group_name' => $group_name,
           'social_network' => $social_network,
