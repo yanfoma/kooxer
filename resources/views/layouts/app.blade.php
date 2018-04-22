@@ -27,7 +27,7 @@
 
             @include('layouts.footer')
 
-            @include('layouts.contact')
+            {{--@include('layouts.contact')--}}
 
             @include('layouts.scripts')
 
