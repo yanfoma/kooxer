@@ -20,6 +20,7 @@ class CreateGroupsList extends Migration
         $table->string('description');
         $table->string('admin_contact');
         $table->string('group_category');
+        $table->timestamps();
       });
     }
 

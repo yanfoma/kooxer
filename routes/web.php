@@ -12,9 +12,17 @@
 */
 
 Route::get('/', function () {
+    return view('index');
+})->name('index');
+
+Route::get('/welcome', function () {
     return view('welcome');
 })->name('welcome');
 
 Route::get('/list_groups', 'Groups@list_groups')->name('list_groups');
 
 Route::post('/add_group', 'Groups@add_group')->name('add_group');
+
+Route::get('/search/', 'Groups@search')->name('search');
+
+Route::post('/mail/', 'Groups@email')->name('email');
