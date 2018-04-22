@@ -6,9 +6,9 @@
 <meta name="author"                content="Yanfoma">
 <meta property="fb:app_id"         content="1530728007250371">
 <meta property="og:site_name"      content="Kooxer">
-<meta property="og:og:title"       content="Kooxer">
-<meta property="og:og:image"       content="{{asset('img/kooxer.png')}}">
-<meta property="og:og:description" content="Kooxer">
+<meta property="og:title"          content="Kooxer">
+<meta property="og:image"          content="{{asset('img/kooxer.png')}}">
+<meta property="og:description"    content="Kooxer">
 <meta property="og:url"            content="https://kooxer.yanfoma.tech">
 <meta property="og:type"           content="website">
 <link rel="stylesheet"             href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
