@@ -2,8 +2,8 @@
 <section class="how-we-work">
     <div class="container ">
         @yield('description')
-        <div class="row col-md-offset-3" style="margin-left: 12%;">
-            <div class="col-md-8 pos-r">
+        <div class="row col-md-offset-3 formAlign">
+            <div class="col-sm-12 col-md-8">
                 <div class="contact-form-inside ">
                     <form id="contact-form " method="post" action="{{route('add_group')}}" role="form" >
                         {{csrf_field()}}

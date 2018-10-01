@@ -10,7 +10,7 @@
         <div class="container">
             @if($FacebookCount)
                 <div class="row">
-                    <div class="col-md-6 offset-md-3">
+                    <div class="col-sm-10 col-md-6 offset-md-3">
                         <div class="about-inside-text">
                             <h2>({{$FacebookCount}})  {{$FacebookCount > 1 ? 'Groupes' : "Groupe"}} Facebook </h2>
                         </div>

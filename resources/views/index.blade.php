@@ -8,11 +8,10 @@
     <section class="our-services">
         <div class="container">
             <div class="row">
-                <div class="col-md-5">
-                    <div class="service-inside-title">
+                <div class="col-md-5" style="padding: 40px!important;">
+                    <div class="service-inside-title" style="text-align: center!important;">
                         <h2>Kooxer</h2>
                         <p>La plateforme qui regroupe tous les groupes des differents Resaux Sociaux en categories.</p>
-
                         <p>Vous pouvez creer vos groupes en un click. Comme vous pouvez aussi joindre les groupes d'une categorie dont vous portez l'interet !!!</p>
                         {{--<a href="#" class="btn">all services</a>--}}
                     </div><!--/.service-inside-title-->

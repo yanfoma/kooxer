@@ -1514,9 +1514,12 @@ Start Responsive style
 }
 
 
-@media only screen and (min-width : 1600px) {
+@media only screen and (min-width : 1000px) {
   .hero-banner:after{
     width: 50%;
+  }
+  .formAlign{
+    margin-left: 25%!important;
   }
 }
 
@@ -2104,7 +2107,7 @@ Start Contact page style
   position: relative;
 }
 .contact-form-inside{
-  width: 125%;
+  width: 100%;
   -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=14, Direction=0, Color=#000000)";/*IE 8*/
 -moz-box-shadow: 0 0 14px rgba(0,0,0,0.6);/*FF 3.5+*/
 -webkit-box-shadow: 0 0 14px rgba(0,0,0,0.6);/*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
