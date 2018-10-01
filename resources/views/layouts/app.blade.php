@@ -11,28 +11,19 @@
 
         <title>@yield('title')</title>
 
-        <title>@yield('title')</title>
-
         @include('layouts.styles')
 
         @include('layouts.header')
 
         @yield('styles')
     </head>
-    <body class="home_alt">
-        <div id="wrapper">
+    <body data-spy="scroll" data-target=".navbar" data-offset="60">
+    <div class="se-pre-con"></div>
             @include('layouts.menu')
-
             @yield('content')
-
             @include('layouts.footer')
-
-            {{--@include('layouts.contact')--}}
-
             @include('layouts.scripts')
-
             @yield('scripts')
-        </div>
 
     </body>
 </html>

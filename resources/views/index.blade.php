@@ -4,26 +4,65 @@
     Kooxer
 @endsection
 @section('content')
-    <br>
-    <section class="section lb">
+    <!--our services-->
+    <section class="our-services">
         <div class="container">
             <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-                    <div class="widget">
-                        <div class="custom-module">
-                            <h4 class="module-title text-center"><i class="material-icons">group</i> Let people search and join your social groups by adding here <br>
-                                <a class="btn btn-raised btn-info gr" onclick="window.location.href='/list_groups?All=1'" ><i class="material-icons">list</i>&nbsp;&nbsp; or Join Groups here<div class="ripple-container"></div></a></h4>
-                            <div class="panel panel-primary">
-                                <div class="panel-body" style="background: white; box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
-                                    @include('layouts.form')
-                                </div>
-                            </div>
-                        </div><!-- end custom-module -->
-                    </div><!-- end widget -->
+                <div class="col-md-5">
+                    <div class="service-inside-title">
+                        <h2>Kooxer</h2>
+                        <p>La plateforme qui regroupe tous les groupes des differents Resaux Sociaux en categories.</p>
+
+                        <p>Vous pouvez creer vos groupes en un click. Comme vous pouvez aussi joindre les groupes d'une categorie dont vous portez l'interet !!!</p>
+                        {{--<a href="#" class="btn">all services</a>--}}
+                    </div><!--/.service-inside-title-->
                 </div>
-            </div><!-- end row -->
-        </div><!-- end container -->
+                <div class="col-md-6 offset-md-1">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="single-service-inside">
+                                <h3>Whatsapp</h3>
+                                <p>Tous les groupes Whatsapp en un seul click</p>
+                                <a href="{{route('whatsapp')}}">Voir<i class="fas fa-long-arrow-alt-right"></i></a>
+                            </div><!--/.single-service-inside-->
+                        </div>
+                        <div class="col-md-6">
+                            <div class="single-service-inside">
+                                <h3>Facebook</h3>
+                                <p>Tous les groupes Facebook en un seul click</p>
+                                <a href="{{route('facebook')}}">Voir<i class="fas fa-long-arrow-alt-right"></i></a>
+                            </div><!--/.single-service-inside-->
+                        </div>
+                        <div class="col-md-6">
+                            <div class="single-service-inside">
+                                <h3>Viber</h3>
+                                <p>Tous les groupes Viber en un seul click</p>
+                                <a href="{{route('viber')}}">Voir<i class="fas fa-long-arrow-alt-right"></i></a>
+                            </div><!--/.single-service-inside-->
+                        </div>
+                        <div class="col-md-6">
+                            <div class="single-service-inside">
+                                <h3>Skype</h3>
+                                <p>Tous les groupes Skype en un seul click</p>
+                                <a href="{{route('skype')}}">Voir<i class="fas fa-long-arrow-alt-right"></i></a>
+                            </div><!--/.single-service-inside-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--/.container-->
     </section>
+
+    <!--how-we-work-->
+    @section('description')
+        <div class="testimonial-title" style="text-align: center">
+            <h2 >Ajouter Votre Groupe!!!</h2>
+            <p>Laissez les gens chercher et rejoindre vos groupes en les ajoutant ici</p>
+        </div>
+    @endsection
+    @include('layouts.form')
+    @include('layouts.contact')
+
 @endsection
 
 

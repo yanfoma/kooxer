@@ -41,9 +41,14 @@ class Groups extends Controller{
             'group_category'  => $group_category
         ]);
 
-        Session::flash('success',"Group Added Successfully!!!");
+        Session::flash('success',"Groupe Ajouté Avec Succèss !!!");
 
-        return redirect()->route('list_groups');
+        return redirect()->back();
+    }
+
+    public function ajouterGroupe(){
+
+        return view('ajouterUnGroupe');
     }
 
     public function list_groups(){
@@ -57,6 +62,30 @@ class Groups extends Controller{
       $WhatsappCount = Group::where('social_network','Whatsapp')->count();
       $ViberCount    = Group::where('social_network','Viber')->count();
       return view('list_groups', ['All' => $All,'facebook' => $facebook,'Whatsapp' => $Whatsapp, 'Viber' => $Viber,'FacebookCount' => $FacebookCount,'WhatsappCount' => $WhatsappCount,'ViberCount' => $ViberCount, 'AllCount' => $AllCount ]);
+    }
+
+    public function whatsapp(){
+      $Whatsapp      = Group::where('social_network','Whatsapp')->orderBy('created_at','desc')->paginate(4);
+      $WhatsappCount = Group::where('social_network','Whatsapp')->count();
+      return view('list_groupsWhatsapp', ['Whatsapp' => $Whatsapp,'WhatsappCount' => $WhatsappCount]);
+    }
+
+    public function facebook(){
+        $facebook      = Group::where('social_network','Facebook')->orderBy('created_at','desc')->paginate(9);
+        $FacebookCount = Group::where('social_network','Facebook')->count();
+        return view('list_groupsFacebook', ['facebook' => $facebook,'FacebookCount' => $FacebookCount]);
+    }
+
+    public function skype(){
+        $skype      = Group::where('social_network','Skype')->orderBy('created_at','desc')->paginate(9);
+        $skypeCount = Group::where('social_network','Skype')->count();
+        return view('list_groupsSkype', ['skype' => $skype,'skypeCount' => $skypeCount]);
+    }
+
+    public function viber(){
+        $viber         = Group::where('social_network','Viber')->orderBy('created_at','desc')->paginate(9);
+        $viberCount    = Group::where('social_network','Viber')->count();
+        return view('list_groupsViber', ['Viber' => $viber,'ViberCount' => $viberCount]);
     }
 
     function search(Request $request){
