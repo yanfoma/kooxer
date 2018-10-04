@@ -1,10 +1,10 @@
 <!--contact page-->
 <section class="how-we-work">
-    <div class="container ">
+    <div class="container">
         @yield('description')
         <div class="row col-md-offset-3 formAlign">
             <div class="col-sm-12 col-md-8">
-                <div class="contact-form-inside ">
+                <div class="contact-form-inside">
                     <form id="contact-form " method="post" action="{{route('add_group')}}" role="form" >
                         {{csrf_field()}}
                         <div class="messages"></div>
@@ -69,9 +69,9 @@
                         <div class="form-group has-error has-feedback is-empty">
                             <label class="col-sm-3 control-label">Description</label>
                             <div class="col-sm-12">
-                            <textarea class="form-control" rows="3"  name="description"   placeholder="Veuillez Décrire votre groupe" required>
-                                {{old('description')}}
-                            </textarea>
+                                <textarea class="form-control" rows="3"  name="description"   placeholder="Veuillez Décrire votre groupe" required>
+                                    {{old('description')}}
+                                </textarea>
                             </div>
                         </div>
                         <div class="col-md-12 col-sm-12">

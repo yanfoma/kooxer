@@ -162,7 +162,7 @@ h6 {
 
  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
-  
+
   color: #1e2c34;
 
   margin: 0;
@@ -219,16 +219,16 @@ menue style
 
 -------------------------------- */
 .active_sc{
-    background:#fff !important;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=24, Direction=77, Color=#000000)";/*IE 8*/
-    -moz-box-shadow: -3px 13px 24px -1px rgba(0,0,0,0.3);/*FF 3.5+*/
-    -webkit-box-shadow: -3px 13px 24px -1px rgba(0,0,0,0.3);/*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
-    box-shadow: -3px 13px 24px -1px rgba(0,0,0,0.3);/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
-    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=24, Direction=135, Color=#000000); /*IE 5.5-7*/
-    transition: box-shadow 2s;
-    padding-top: 0 !important;
-    z-index: 99999;
-    transition: 0.3s all;
+  background:#fff !important;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=24, Direction=77, Color=#000000)";/*IE 8*/
+  -moz-box-shadow: -3px 13px 24px -1px rgba(0,0,0,0.3);/*FF 3.5+*/
+  -webkit-box-shadow: -3px 13px 24px -1px rgba(0,0,0,0.3);/*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
+  box-shadow: -3px 13px 24px -1px rgba(0,0,0,0.3);/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+  filter: progid:DXImageTransform.Microsoft.Shadow(Strength=24, Direction=135, Color=#000000); /*IE 5.5-7*/
+  transition: box-shadow 2s;
+  padding-top: 0 !important;
+  z-index: 99999;
+  transition: 0.3s all;
 }
 
 
@@ -236,14 +236,13 @@ menue style
   background: none;
   transition: 0.3s all;
   z-index: 999;
-  padding-top: 30px;
   -webkit-box-shadow: 0px 0px 8px -2px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 0px 8px -2px rgba(0,0,0,0.75);
   box-shadow: 0px 0px 8px -2px rgba(0,0,0,0.75);
 }
 .navbar.navbar-expand-lg .navbar-brand{
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   color:#4CAF50!important;
   font-weight: bold;
   font-size: 50px;
@@ -260,9 +259,9 @@ menue style
   font-weight: 700;
   text-transform: uppercase;
 }
-.navbar-light .navbar-nav .active>.nav-link, 
-.navbar-light .navbar-nav .nav-link.active, 
-.navbar-light .navbar-nav .nav-link.show, 
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .show>.nav-link{
   color: #1a1a1a;
   text-decoration: underline;
@@ -270,10 +269,10 @@ menue style
 
 .navbar .nav-item.drop_menu {
   position: relative;
-      float: left;
-    position: relative;
-    margin-right: 6px;
-    height: 50px;
+  float: left;
+  position: relative;
+  margin-right: 6px;
+  height: 50px;
 }
 .navbar .nav-item.drop_menu ul li{
   width: 100%;
@@ -308,13 +307,13 @@ menue style
 }
 
 .navbar .nav-item.drop_menu ul li a{
-    color: #4CAF50;
-    float: left;
-    width: 100%;
-    font-weight: 700;
-    text-align: left;
-    padding: 5px 15px;
-    font-size: 12px;
+  color: #4CAF50;
+  float: left;
+  width: 100%;
+  font-weight: 700;
+  text-align: left;
+  padding: 5px 15px;
+  font-size: 12px;
 }
 .navbar .nav-item.drop_menu:hover ul{
   opacity: 1;
@@ -324,7 +323,7 @@ menue style
 
 
 
-/* -------------------------------- 
+/* --------------------------------
 
 close menue style
 
@@ -333,7 +332,7 @@ close menue style
 
 
 
-/* -------------------------------- 
+/* --------------------------------
 
 Start Hero banner style
 
@@ -364,6 +363,7 @@ Start Hero banner style
   position: absolute;
   left: 0;
   bottom: 0;
+  background: url(../img/banner-left-bg.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -380,7 +380,7 @@ Start Hero banner style
   padding-bottom: 20px;
 }
 .banner-inside-text p{
-  color: #4CAF50;
+  color: #58577b;
   font-size: 18px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
@@ -400,14 +400,15 @@ Start Hero banner style
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   padding: 12px 42px;
+  margin-bottom: 20px;
   color: #ffffff;
   font-size: 13px;
   overflow: hidden;
   border-radius: 40px;
-  background-color:#4CAF50;
+  background-color:#50c054;
   text-transform: uppercase;
   z-index: 9;
-  border:2px solid #4CAF50;
+  border:2px solid #50c054;
 }
 .banner-inside-text .btn:after,
 .about-inside-text .btn:after,
@@ -445,7 +446,7 @@ Start Hero banner style
 .why-us-inside .btn:hover,
 .price-list-title .btn:hover,
 .contact-form-inside form  .btn:hover{
-  color: #4CAF50;
+  color: #50c054;
 }
 
 
@@ -468,7 +469,7 @@ Start Hero banner style
   width: 80px;
   height: 80px;
   padding-top: 12px;
-  background-color: #4CAF50;
+  background-color: #50c054;
   border:1px solid #ffffff;
   color: #ffffff;
   font-size: 20px;
@@ -515,7 +516,7 @@ Start Hero banner style
   opacity:1;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
 Close Hero banner style
 
@@ -524,7 +525,7 @@ Close Hero banner style
 
 
 
-/* -------------------------------- 
+/* --------------------------------
 
 Start About us style
 
@@ -543,7 +544,7 @@ Start About us style
   text-transform: uppercase;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
-  color: #4CAF50;
+  color: #50c054;
   font-size: 18px;
 }
 .about-inside-text h2,
@@ -571,7 +572,7 @@ Start About us style
 }
 
 
-/* -------------------------------- 
+/* --------------------------------
 
 Close About us style
 
@@ -581,13 +582,13 @@ Close About us style
 
 
 
-/* -------------------------------- 
+/* --------------------------------
 
 Start Our service style
 
 -------------------------------- */
 
-.our-services{
+.our-services {
   width: 100%;
   padding-top: 120px;
   background-color: #f7f7f7 !important;
@@ -600,7 +601,6 @@ Start Our service style
 .service-inside-title{
   text-align: right;
   padding-top: 130px;
-
 }
 
 .our-services .row .col-md-6 .row .col-md-6:nth-child(1){
@@ -612,16 +612,16 @@ Start Our service style
 }
 
 
-.single-service-inside{
+.single-service-inside {
   width: 100%;
   padding: 48px 20px;
   background: #fff;
   margin-bottom: 30px;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=15, Direction=0, Color=#000000)";/*IE 8*/
-  -moz-box-shadow: 0 0 15px -2px rgba(0,0,0,0.6);/*FF 3.5+*/
-  -webkit-box-shadow: 0 0 15px -2px rgba(0,0,0,0.6);/*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
-  box-shadow: 0 0 15px -2px rgba(0,0,0,0.6);/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
-  filter: progid:DXImageTransform.Microsoft.Shadow(Strength=15, Direction=135, Color=#000000); /*IE 5.5-7*/
+  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=15, Direction=0, Color=#000000)";
+  -moz-box-shadow: 0 0 15px -2px rgba(0,0,0,0.6);
+  -webkit-box-shadow: 0 0 15px -2px rgba(0,0,0,0.6);
+  box-shadow: 0 0 15px -2px rgba(0,0,0,0.6);
+  filter: progid:DXImageTransform.Microsoft.Shadow(Strength=15, Direction=135, Color=#000000);
   -webkit-transition: 0.3s all ease;
   -moz-transition: 0.3s all ease;
   -ms-transition: 0.3s all ease;
@@ -631,13 +631,14 @@ Start Our service style
   border-radius: 10px;
 }
 
+
 .single-service-inside .hide-icon{
   display: none;
 }
 .single-service-inside h3{
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
-  color: #4CAF50;
+  color: #50c054;
   font-size: 18px;
   padding: 16px 0;
 }
@@ -652,7 +653,7 @@ Start Our service style
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  color: #4CAF50;
+  color: #50c054;
   font-size: 14px;
 }
 .single-service-inside a i{
@@ -661,7 +662,7 @@ Start Our service style
 
 /*hover*/
 .single-service-inside:hover{
-  background-color: #4CAF50;
+  background-color: #50c054;
 }
 .single-service-inside:hover .show-icon{
   display: none;
@@ -675,7 +676,7 @@ Start Our service style
   color: #ffffff;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
 Close Our service style
 
@@ -684,7 +685,7 @@ Close Our service style
 
 
 
-/* -------------------------------- 
+/* --------------------------------
 
 Start Video show style
 
@@ -693,6 +694,8 @@ Start Video show style
 .how-we-work{
   width: 100%;
   background-color: #efeff1;
+  padding-bottom: 100px;
+  margin-bottom: 0px!important;
 }
 
 .left-work-img{
@@ -724,7 +727,7 @@ Start Video show style
 }
 
 
-/* -------------------------------- 
+/* --------------------------------
 
 Close Video show style
 
@@ -733,7 +736,7 @@ Close Video show style
 
 
 
-/* -------------------------------- 
+/* --------------------------------
 
 Start Why we are style
 
@@ -758,7 +761,7 @@ Start Why we are style
   padding-bottom: 22px;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
 Close Why we are style
 
@@ -767,7 +770,7 @@ Close Why we are style
 
 
 
-/* -------------------------------- 
+/* --------------------------------
 
 Start Fun fact style
 
@@ -790,7 +793,7 @@ Start Fun fact style
   position: absolute;
   left: 0;
   top: 0;
-  background-color: #4CAF50;
+  background-color: #50c054;
   opacity: 0.8;
   z-index: -9;
 }
@@ -814,7 +817,7 @@ Start Fun fact style
   text-transform: uppercase;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
 Close Fun fact style
 
@@ -823,7 +826,7 @@ Close Fun fact style
 
 
 
-/* -------------------------------- 
+/* --------------------------------
 
 Start Testimonials style
 
@@ -885,132 +888,8 @@ Start Testimonials style
   right: 0;
   top: 0;
   z-index: -1;
-  color: #25D366;
+  color: #e9ecff;
 }
-
-.categorie, .categorieViber, .categorieFacebook, .categorieSkype  {
-  width: auto;
-  font-size: 13px!important;
-  position: relative;
-  border-radius: 40px;
-  text-transform: uppercase;
-  z-index: 9;
-  color: #fff;
-  margin-bottom: 20px;
-}
-.categorie {
-  background-color: #25D366;
-  border: 2px solid #25D366;
-}
-.categorieViber {
-  background-color: #675CA8;
-  border: 2px solid #675CA8;
-}
-.categorieFacebook {
-  background-color: #3B5998;
-  border: 2px solid #3B5998;
-}
-.categorieSkype {
-  background-color: #00AFF0;
-  border: 2px solid #00AFF0;
-}
-
-.btnViber, .btnFacebook, .btnSkype , .btn2{
-  position: relative;
-  bottom: 10px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
-  padding: 8px 20px;
-  font-size: 13px;
-  border-radius: 40px;
-  text-transform: uppercase;
-  z-index: 9;
-}
-.btn2 {
-  color: #25D366;
-  border: 2px solid #25D366;
-}
-.btnViber {
-  color: #675CA8;
-  border: 2px solid #675CA8;
-}
-
-.btnFacebook {
-  color: #3B5998;
-  border: 2px solid #3B5998;
-}
-
-.btnSkype {
-  color: #00AFF0;
-  border: 2px solid #00AFF0;
-}
-
-.btn2:hover {
-  background:#25D366;
-  color:#fff;
-  border: 2px solid #25D366;
-}
-
-.btnViber:hover {
-  background:#675CA8;
-  color:#fff;
-  border: 2px solid #fff;
-}
-
-.btnFacebook:hover {
-  background:#3B5998;
-  color:#fff;
-  border: 2px solid #fff;
-}
-
-.btnSkype:hover {
-  background:#00AFF0;
-  color:#fff;
-  border: 2px solid #fff;
-}
-
-.pagination,
-.pagination li a {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-
-.pagination li { background-color: #4CAF50; }
-
-.pagination li{
-  font-weight: 500;
-  padding: 10px;
-  font-size: 20px;
-  text-decoration:none;
-  border: 1px solid rgba(0,0,0,.25);
-  border-left-width: 0;
-  min-width:44px;
-  min-height:44px;
-  color: #fff;
-  box-shadow: inset 0px 1px 0px 0px rgba(255,255,255,.35);
-}
-
-.pagination a {
-  color: #fff;
-}
-.pagination li:hover {
-  cursor: pointer;
-  background-color: #338e34;
-}
-.pagination .active {
-  color: #fff;
-  background-color: #25D366;
-  border: 1px solid #25D366;
-}
-.pagination .disabled {
-  color: #fff;
-  cursor: none;
-  background-color: #3c8840;
-}
-
-
 
 .single-review h3{
   font-family: 'Montserrat', sans-serif;
@@ -1026,12 +905,11 @@ Start Testimonials style
   font-size: 14px;
 }
 .single-review p{
-  padding-top: 12px;
+  padding-top: 22px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
-  color: #000;
+  color: #58577b;
   font-size: 16px;
-  margin-bottom: 50px;
 }
 
 .testimonial .owl-nav{
@@ -1046,21 +924,21 @@ Start Testimonials style
 .testimonial .owl-carousel .owl-nav button.owl-next:hover,
 .testimonial .owl-carousel .owl-nav button.owl-prev:hover{
   color: #ffffff;
-  border-color: #4CAF50;
+  border-color: #50c054;
 }
 .testimonial .owl-carousel .owl-nav button.owl-next,
 .testimonial .owl-carousel .owl-nav button.owl-prev{
   width: 30px;
   height: 30px;
   margin-right: 10px;
-  border:1px solid #4CAF50;
+  border:1px solid #50c054;
   color: #ffffff;
   outline: 0;
-  background-color: #4CAF50;
+  background-color: #50c054;
 }
 
 
-/* -------------------------------- 
+/* --------------------------------
 
 Close Testimonials style
 
@@ -1069,7 +947,7 @@ Close Testimonials style
 
 
 
-/* -------------------------------- 
+/* --------------------------------
 
 Start Price style
 
@@ -1091,7 +969,7 @@ Start Price style
   transition: 0.3s all ease;
 }
 .single-price:hover{
-  background-color: #4CAF50;
+  background-color: #50c054;
 }
 .single-price:hover .price-body ul li{
   color: #ffffff;
@@ -1175,7 +1053,7 @@ Start Price style
   padding-top: 120px;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
 Close Price style
 
@@ -1184,7 +1062,7 @@ Close Price style
 
 
 
-/* -------------------------------- 
+/* --------------------------------
 
 Start Discuss project style
 
@@ -1197,6 +1075,7 @@ Start Discuss project style
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  margin-top:0px;
   padding: 100px 0;
   position: relative;
 }
@@ -1251,7 +1130,7 @@ Start Discuss project style
   margin-top: 30px;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
 Close Discuss project style
 
@@ -1260,7 +1139,7 @@ Close Discuss project style
 
 
 
-/* -------------------------------- 
+/* --------------------------------
 
 Start Footer widget style
 
@@ -1301,7 +1180,7 @@ Start Footer widget style
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
   color: #3f3a39;
-  font-size: 14px; 
+  font-size: 14px;
 }
 
 .footer-widget .footer-input form{
@@ -1346,22 +1225,22 @@ Start Footer widget style
   padding-top: 2px;
 }
 .footer-widget .footer-input ul li a:hover{
-  background-color: #4CAF50 ;
+  background-color: #50c054 ;
 }
 
 /*footer copyright*/
 .footer{
   width: 100%;
-  background-color: #1a1a1a;
+  background-color: #338e34;
   padding: 20px 0;
   text-align: center;
 }
-.footer p{
+.footer p , .footer a{
   color: #ffffff;
-  font-size: 14px;
+  font-size: 22px;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
 Close Footer widget style
 
@@ -1370,7 +1249,7 @@ Close Footer widget style
 
 
 
-/* -------------------------------- 
+/* --------------------------------
 
 Start Responsive style
 
@@ -1514,17 +1393,14 @@ Start Responsive style
 }
 
 
-@media only screen and (min-width : 1000px) {
+@media only screen and (min-width : 1600px) {
   .hero-banner:after{
     width: 50%;
-  }
-  .formAlign{
-    margin-left: 25%!important;
   }
 }
 
 
-/* -------------------------------- 
+/* --------------------------------
 
 Close Responsive style
 
@@ -1533,7 +1409,7 @@ Close Responsive style
 
 
 
-/* -------------------------------- 
+/* --------------------------------
 
 Start About page style
 
@@ -1596,7 +1472,7 @@ Start About page style
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   text-transform: capitalize;
-  color: #4CAF50;
+  color: #50c054;
   font-size: 24px;
 }
 .single-service-about p{
@@ -1679,7 +1555,6 @@ Start About page style
   padding-top: 120px;
   position: relative;
   z-index: 9;
-  padding-bottom: 90px;
 }
 .about-team:after{
   content: '';
@@ -1688,14 +1563,14 @@ Start About page style
   position: absolute;
   left: 0;
   bottom: -20%;
-  background-image: url(https://res.cloudinary.com/yanfomaweb/image/upload/v1537656338/Kooxer/bg.png);
+  background-image: url(../img/about/bg.png);
   z-index: -9;
   background-size: cover;
   background-position: bottom right;
   background-repeat: no-repeat;
 }
 .about-team .about-inside-text{
-  padding: 20px;
+  padding-bottom: 90px;
   width: 100%;
   text-align: center;
 }
@@ -1813,7 +1688,7 @@ Start About page style
   }
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
 Close About page style
 
@@ -1821,7 +1696,7 @@ Close About page style
 
 
 
-/* -------------------------------- 
+/* --------------------------------
 
 Start Service page style
 
@@ -1911,7 +1786,7 @@ Start Service page style
   }
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
 Close Service page style
 
@@ -1920,7 +1795,7 @@ Close Service page style
 
 
 
-/* -------------------------------- 
+/* --------------------------------
 
 Start Portfolios page style
 
@@ -2066,7 +1941,7 @@ Start Portfolios page style
 }
 
 
-/* -------------------------------- 
+/* --------------------------------
 
 Close Portfolios page style
 
@@ -2074,7 +1949,7 @@ Close Portfolios page style
 
 
 
-/* -------------------------------- 
+/* --------------------------------
 
 Start Contact page style
 
@@ -2116,8 +1991,10 @@ filter: progid:DXImageTransform.Microsoft.Shadow(Strength=14, Direction=135, Col
   padding: 20px 30px;
   background-color: #fafafa;
   position: relative;
-  margin-bottom: 60px;
-  z-index: 100;
+  float: left;
+  top: 10px;
+  bottom: 100px;
+  padding-bottom:0px;
 }
 .contact-form-inside form input,
 .contact-form-inside form textarea{
@@ -2142,6 +2019,13 @@ filter: progid:DXImageTransform.Microsoft.Shadow(Strength=14, Direction=135, Col
   height: 400px;
 }
 
+@media only screen and (min-width : 1000px) {
+  .contact-form-inside{
+    left: 25%;
+    position: relative;
+  }
+
+}
 @media only screen and (max-width : 767px) {
   .contact-form-inside{
     bottom: 0;
@@ -2441,7 +2325,7 @@ Start Blog page style
   display: inline-block;
 }
 .blog-page-single  .tag-share ul.tags{
-  
+
   width: 100%;
 }
 .blog-page-single  .tag-share ul.tags li{
@@ -2454,7 +2338,7 @@ Start Blog page style
   color: #5a595c;
 }
 .blog-page-single  .tag-share ul.social{
-  
+
   width: 100%;
   text-align: right;
 }

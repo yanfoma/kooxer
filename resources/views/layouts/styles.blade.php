@@ -10,6 +10,13 @@
 <link rel="stylesheet" href="{{ asset('css/style.css')}}">
 <link rel="stylesheet" href="{{ asset('css/toastr.min.css')}}">
 
+<link rel="stylesheet" href="{{ asset('css/animate.css')}}">
+<link rel="stylesheet" href="{{ asset('css/bootstrap.min.css')}}">
+<link rel="stylesheet" href="{{ asset('css/magnific-popup.css')}}">
+<link rel="stylesheet" href="{{ asset('css/normalize.css')}}">
+<link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css')}}">
+<link rel="stylesheet" href="{{ asset('css/owl.theme.default.min.css')}}">
+
 <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>

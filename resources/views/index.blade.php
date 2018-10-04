@@ -13,7 +13,6 @@
                         <h2>Kooxer</h2>
                         <p>La plateforme qui regroupe tous les groupes des differents Resaux Sociaux en categories.</p>
                         <p>Vous pouvez creer vos groupes en un click. Comme vous pouvez aussi joindre les groupes d'une categorie dont vous portez l'interet !!!</p>
-                        {{--<a href="#" class="btn">all services</a>--}}
                     </div><!--/.service-inside-title-->
                 </div>
                 <div class="col-md-6 offset-md-1">
@@ -51,7 +50,7 @@
             </div>
         </div><!--/.container-->
     </section>
-
+    <!--/.our services-->
     <!--how-we-work-->
     @section('description')
         <div class="testimonial-title" style="text-align: center">
