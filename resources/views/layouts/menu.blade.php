@@ -23,6 +23,5 @@
 			</ul>
 		</div>
 	</div>
-	<!--/.CONTAINER-->
 </nav>
 <!-- /.navbar -->
